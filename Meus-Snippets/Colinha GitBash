@@ -1,0 +1,19 @@
+Criar arquivo de texto
+abrir prompt na pasta utilizando SHIT+MOUSEDIR
+alterar para .gitignore utilizando ren "arquivo".tx ".gitignore"
+Abrir git BASH na pasta utilizando SHIT+MOUSEDIR
+git init
+git config --global user.name "seu nome"
+git config --global user.email "email (do github)"
+git remote add origin "link do projeto github" //associa com repositorio remoto
+git pull origin master // faz o pull de arquivos da branch. No caso, master.
+git add . // leva arquivos para o stage 
+git commit -m "mensagem de commit" // commita os arquivos com descrição
+git push -u origin master // faz o push para a branch.No caso, master.
+git status // mostra arquivos prontos para serem comitados
+git log // mostra os status de commits e suas descrições
+git log --oneline // status de commits resumido
+:q! // sair do editor VIM quando da o commit sem comentário
+
+git clean df	  // volta pra versao anterior
+git checkout -- . // consolida versao anterior
